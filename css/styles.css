@@ -157,11 +157,11 @@ h1 {
  } 
 }
 /* Мобильное меню */
-.mobal-menu-open{
+.mobal-menu-opens{
     padding: 0;
     color: #2E2F42;
-    border:#FFFFFF;
-    background: #FFFFFF;
+    /* border:#2E2F42; */
+    /* background: #FFFFFF; */
 }
 /* Герой */
 .hero{

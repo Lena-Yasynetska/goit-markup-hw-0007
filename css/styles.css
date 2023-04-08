@@ -162,6 +162,8 @@ h1 {
     color: #2E2F42;
     /* border:#2E2F42; */
     /* background: #FFFFFF; */
+    justify-content: center;
+    
 }
 /* Герой */
 .hero{

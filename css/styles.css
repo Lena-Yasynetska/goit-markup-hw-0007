@@ -211,11 +211,12 @@ h1 {
     height: 100%;
     top: 0;
     left: 0;
+    padding: 80px 35px 40px 40px;
     z-index: 1000;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.mobilite-close-btn{
+.modal-close-btn{
     position: absolute;
     top: 24px;
     right: 24px;
@@ -224,25 +225,24 @@ h1 {
     border-radius: 50%;
     padding: 0;
     cursor: pointer;
-    border: 1px solid #2E2F42;
-    background: #E7E9FC;
-    opacity: 0.1;
-    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    border: 1px solid #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size:none;   
 }
 
-.mobilite-close-btn:hover,
-.mobilite-close-btn:focus{
+.modal-close-btn:hover,
+.modal-close-btn:focus{
     background-color: #404BBF;
     fill: #FFFFFF;
 }
-.
+.mobilite-menu{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
+}
 /* Герой */
 .hero{
     background-color:  #2E2F42;

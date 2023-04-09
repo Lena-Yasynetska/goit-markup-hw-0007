@@ -357,7 +357,12 @@ color: #434455;
     .mobal-menu-opens{
         display: none;
     }
-
+}
+/* Для Десктопов */
+@media screen and (min-width: 1200px){
+    .address{
+        display: flex;
+    }
 }
 /* Герой */
 .hero{

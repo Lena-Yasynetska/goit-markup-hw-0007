@@ -26,7 +26,7 @@ h1 {
     text-align: center;
  }
 /* Шапка стр. */
-/* .header{
+ .header{
     padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
 }
@@ -127,7 +127,7 @@ h1 {
 }
 .adress-menu:hover{
     color: #404BBF;
-} */
+} 
 .container{
     width: 100%;
     padding-left: 16px;
@@ -347,9 +347,14 @@ color: #434455;
 } */
 /* ---------Для планшетов ---------*/
 @media screen and (min-width: 768px) {
-    .mobilite-menu{
+    .mobilite-menu {
+        display: none;
+
+    }
+    .mobal-menu-opens{
         display: none;
     }
+
 }
 /* Герой */
 .hero{

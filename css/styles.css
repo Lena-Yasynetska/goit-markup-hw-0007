@@ -156,15 +156,32 @@ h1 {
     padding-right: 15px;    */
  } 
 }
-.menu{
+/* .menu{
     display: none;
 }
 .address{
     display: none;
-}
+} */
 /* Мобильное меню */
+@media screen and (max-widht: 768px) {
+    .menu{
+        display: none;
+    }
+}
+@media screen and (max-widht: 768px) {    
+    .address{
+        display: none;
+    }
+}
 .mobal-menu-opens_icon{
+    position: absolute;
+left: 4.21%;
+right: 3.48%;
+top: 6.49%;
+bottom: 8.89%;
     padding: 0;
+    width: 30px;
+    height: 19px;
      color: #2E2F42;
     border:#2E2F42;
     background: #FFFFFF;

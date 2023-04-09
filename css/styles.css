@@ -227,7 +227,7 @@ h1 {
     border: 1px solid #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-size: none;   
+    font-size: 0;   
 }
 
 .modal-close-btn:hover,
@@ -235,12 +235,20 @@ h1 {
     background-color: #404BBF;
     fill: #FFFFFF;
 }
-.modal-close-btn{
+/* .modal-close-btn{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px;
+} */
+.mobilites{
+    padding: 80px 35px 40px 40px;
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+color: #2E2F42;
 }
 .mobil-social-list-item{
     display: flex;

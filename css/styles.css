@@ -235,14 +235,11 @@ h1 {
     background-color: #404BBF;
     fill: #FFFFFF;
 }
-/* .modal-close-btn{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-} */
+
 .mobilites{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 80px 35px 40px 40px;
     font-style: normal;
 font-weight: 700;
@@ -250,13 +247,41 @@ font-size: 36px;
 line-height: 1.1;
 color: #2E2F42;
 }
+.menu-teil{
+    margin-bottom: 40px;
+}
+.menu-teil:last-child{
+    margin-bottom: 0;
+}
+.mobilite-address{
+    margin-top: 284px;
+    margin-bottom: 48px;
+}
+.address-mobilite{
+    margin-bottom: 40px;
+}
+.adress-menu{
+color: #4D5AE5;
+}
+.adress-menu-email{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #434455;
+}
+.mobil-social-list{
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+}
 .mobil-social-list-item{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 40px;
     height: 40px;
-    margin-right: 24px;
+    margin-right: 54px;
     border-radius: 50%;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -281,10 +306,10 @@ color: #2E2F42;
 .mobil-social-list-icon:focus{
     background-color: #404BBF;
 } 
-.mobil-social-list{
+/* .mobil-social-list{
     display: flex;
     flex-direction: row;
-}
+} */
 /* Герой */
 .hero{
     background-color:  #2E2F42;

@@ -277,6 +277,7 @@ color: #434455;
 }
 .mobil-social-list-item{
     display: flex;
+   flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 40px;

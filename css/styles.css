@@ -297,8 +297,7 @@ color: #434455;
 }
 .mobil-social-list-icon{
     display: block;
-    top: auto;
-    bottom: auto;
+    transform: translateX(50%);
     outline: 1px solid fff; 
     background-size: contain;
     fill: #2E2F42;

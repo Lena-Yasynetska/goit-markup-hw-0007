@@ -243,9 +243,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 40px;
 }
-.menu-teil{
-    margin-bottom: 40px;
-}
+.menu-teil{}
 /* Герой */
 .hero{
     background-color:  #2E2F42;

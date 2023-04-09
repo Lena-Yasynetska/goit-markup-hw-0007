@@ -178,28 +178,30 @@ h1 {
         display: none;
     }
 }
+/* .header{
+    height: 70px;
+} */
 .header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 25px;
+    padding-top: 26px;
     padding-bottom: 25px;
 }
-.mobal-menu-opens_icon{
-    /* position: absolute;
-left: 4.21%;
-right: 3.48%;
-top: 6.49%;
-bottom: 8.89%; */
-    padding: 0;
+.mobal-menu-opens{
     width: 30px;
     height: 19px;
-     color: #2E2F42;
-    border:#2E2F42;
-    background: #FFFFFF;
-    /* justify-content: center; */
-    background-repeat: no-repeat;
-    /* background-position: center; */
+    padding: 0;
+    
+    border: none;
+    background-color: transparent;
+    background-color: #31D0AA;
+    line-height: 0;
+}
+.mobal-menu-opens_icon{
+    /* position: absolute; */
+
+    
 }
 /* Герой */
 .hero{

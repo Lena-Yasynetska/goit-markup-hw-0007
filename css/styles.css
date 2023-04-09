@@ -156,6 +156,12 @@ h1 {
     padding-right: 15px;    */
  } 
 }
+.menu{
+    display: none;
+}
+.address{
+    display: none;
+}
 /* Мобильное меню */
 .mobal-menu-opens_icon{
     padding: 0;

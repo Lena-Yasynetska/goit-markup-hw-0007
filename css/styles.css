@@ -204,6 +204,7 @@ h1 {
     height: 19px;
 }
 /* -----Меню для мобилок ------*/
+@media screen and (max-width: 767px) {    
 .mobilite-menu{
     position: fixed;
     width: 100%;
@@ -339,10 +340,17 @@ color: #434455;
 .mobil-social-list-icon:focus{
     background-color: #404BBF;
 } 
+}
 /* .mobil-social-list{
     display: flex;
     flex-direction: row;
 } */
+/* ---------Для планшетов ---------*/
+@media screen and (min-width: 768px) {
+    .mobilite-menu{
+        display: none;
+    }
+}
 /* Герой */
 .hero{
     background-color:  #2E2F42;

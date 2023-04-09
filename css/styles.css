@@ -200,8 +200,9 @@ h1 {
 }
 .mobal-menu-opens_icon{
     /* position: absolute; */
-
-    
+    fill: #2E2F42;
+    width: 30px;
+    height: 19px;
 }
 /* Герой */
 .hero{

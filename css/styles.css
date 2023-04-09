@@ -173,12 +173,24 @@ h1 {
         display: block;
     }
 }
+@media screen and (min-width: 768px) {
+    .mobal-menu-opens{
+        display: none;
+    }
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .mobal-menu-opens_icon{
-    position: absolute;
+    /* position: absolute;
 left: 4.21%;
 right: 3.48%;
 top: 6.49%;
-bottom: 8.89%;
+bottom: 8.89%; */
     padding: 0;
     width: 30px;
     height: 19px;
@@ -187,7 +199,7 @@ bottom: 8.89%;
     background: #FFFFFF;
     /* justify-content: center; */
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 /* Герой */
 .hero{

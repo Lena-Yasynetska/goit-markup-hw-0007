@@ -647,9 +647,11 @@ img{
 @media screen and (min-width: 428px){
     .container-produkt{
         margin: 96px 82px;
+       
     }
+    
     .produkt{
-        margin-bottom: 72px;
+        margin: 0 0 72px 0;
     }
 }
 /* -------Для Планшета------- */

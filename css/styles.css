@@ -775,9 +775,6 @@ h2 {
 } */
 
 /* Наши компаньоны  */
-@media screen and (max-width: 428px) {
-    
-
 .gustomers{
     display: flex;
     flex-direction: column;
@@ -790,8 +787,8 @@ h2 {
 }
 .gustomers-list{
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
-    /* flex-direction: row; */
 }
 .gustomers-list-item{
     display: flex;
@@ -823,6 +820,17 @@ h2 {
     fill: #8E8F99;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (max-width: 428px){
+    .gustomers-list{
+        flex-wrap: wrap;
+    }
+    .gustomers-list-item:last-child(2n){
+        margin-right: 0;
+    }
+    .gustomers-list-item{
+        width: 190px;
+       
+    }
 }
 /* Подвал стр. */
 /* -------Моб.------- */

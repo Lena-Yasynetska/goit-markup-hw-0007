@@ -428,6 +428,9 @@ color: #434455;
         display: flex;
         flex-direction: column;
     }
+    .container-job{
+        display: none;
+   }
     /* .container-job{
         display: none;
     } */
@@ -561,12 +564,12 @@ color: #434455;
 
 /* наши работы */
 
-/* @media screen and (max-weidth: 428px;) {
+@media screen and (max-weidth: 428px;) {
     .job{
         display: none;
     }
-} */
-
+}
+@media screen and (min-weidth: 768px;){
 .container-job{
     display: flex;
     margin-bottom: 120px;
@@ -609,11 +612,12 @@ img{
 .job-secion:last-child{
     margin-right: 0;
 }
-@media screen and (max-weidht: 428px;) {
+}
+/* @media screen and (max-weidht: 428px;) {
     .container .container-job{
         display: none;
     }
-}
+} */
 /* Команда */
 h2 {
     margin: 0;

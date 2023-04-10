@@ -626,7 +626,7 @@ img{
 
 @media screen and (min-width: 428px){
     .container-job{
-        display: flex;
+        /* display: flex; */
         margin-bottom: 120px;
         justify-content: center;
         flex-direction: column;
@@ -636,12 +636,27 @@ img{
 
     }
 }
-/* @media screen and (max-weidht: 428px;) {
+@media screen and (max-widht: 428px;) {
     .container .container-job{
         display: none;
     }
-} */
+}
 /* Команда */
+/* -------Для Моб.------- */
+
+@media screen and (min-width: 428px){
+    .container-produkt{
+        margin: 96px 82px;
+    }
+    .produkt{
+        margin-bottom: 72px;
+    }
+}
+/* -------Для Планшета------- */
+
+/* -------Для Десктопа------- */
+
+
 h2 {
     margin: 0;
 }

@@ -642,18 +642,19 @@ img{
     }
 }
 /* Команда */
-/* -------Для Моб.------- */
+/* -------Для Моб.-------
 
 @media screen and (min-width: 428px){
     .container-produkt{
         margin: 96px 82px;
-       
     }
-    
     .produkt{
-        margin: 0 0 72px 0;
+        margin-bottom: 72px;
     }
-}
+    .container-team{
+        margin-bottom: 72px;
+    }
+} */
 /* -------Для Планшета------- */
 
 /* -------Для Десктопа------- */
@@ -775,7 +776,20 @@ h2 {
         display: block;
     }
 } */
+/* -------Для Моб.------- */
 
+@media screen and (min-width: 768px){
+    .container-produkt{
+        margin: 96px 82px;
+    }
+    .produkt{
+        margin-bottom: 72px;
+        margin-right: 0;
+    }
+    .container-team{
+        margin-bottom: 72px;
+    }
+}
 /* Наши компаньоны  */
 .gustomers{
     display: flex;
@@ -790,7 +804,7 @@ h2 {
 .gustomers-list{
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-direction: row; */
 }
 .gustomers-list-item{
     display: flex;
@@ -824,14 +838,10 @@ h2 {
 }
 @media screen and (max-width: 428px){
     .gustomers-list{
-        flex-wrap: wrap;
+        
     }
     .gustomers-list-item:last-child(2n){
         margin-right: 0;
-    }
-    .gustomers-list-item{
-        width: 190px;
-       
     }
 }
 /* Подвал стр. */

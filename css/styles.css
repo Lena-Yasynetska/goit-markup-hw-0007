@@ -423,7 +423,7 @@ color: #434455;
  /* .container-job{
          display: none;
     } */
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
     .strategy{
         display: flex;
         flex-direction: column;

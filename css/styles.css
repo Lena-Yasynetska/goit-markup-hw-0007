@@ -789,6 +789,9 @@ h2 {
     .container-team{
         margin-bottom: 72px;
     }
+    .produkt:last-child{
+        margin-bottom: 0;
+    }
 }
 /* Наши компаньоны  */
 .gustomers{
@@ -836,28 +839,48 @@ h2 {
     fill: #8E8F99;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (max-width: 428px){
-    .gustomers-list{
-        
+@media screen and (max-width: 768px){
+    .gustomers-item{
+        margin-top: 96px;
+        margin-bottom: 0;
     }
-    .gustomers-list-item:last-child(2n){
+    .gustomers-list-item{
+        margin-bottom: 72px;
+        /* gap-right: 16px; */
+    }
+    .gustomers-list{
+       margin: 72px 16px 96px 16px;
+       flex-wrap: wrap; 
+    }
+    .gustomers-list-item:last-child{
+    margin-right: 0;
+}
+    .gustomers-list-item:nth-child(even){
         margin-right: 0;
     }
 }
 /* Подвал стр. */
 /* -------Моб.------- */
-@media screen and (max-width: 428px){
+@media screen and (max-width: 768px){
     .footer{
         display: flex;
         flex-direction: column;
     }
-}
+    .container-alles{
+        flex-direction: column;
+        /* text-align: center; */
+        
+    }
+    .logos-footer{
+        flex-direction: column;
+    }
+} 
 
 /* ------Планшет------ */
 
 
 /* ------Десктоп----- */
-@media screen and (min-width: 1158px){
+/* @media screen and (min-width: 1158px){ */
     
 
 .footer{

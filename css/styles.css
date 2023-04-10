@@ -564,7 +564,7 @@ color: #434455;
 
 /* наши работы */
 
-@media screen and (max-weidth: 428px;) {
+@media screen and (max-width: 428px;) {
     .job{
         display: none;
     }
@@ -612,6 +612,7 @@ color: #434455;
     transform: translate(0.0);
 } 
 img{
+    
     max-width: 100%;
     height: auto;
     display: block;
@@ -623,7 +624,7 @@ img{
     margin-right: 0;
 }
 
-@media screen and (min-weidth: 428px;){
+@media screen and (min-width: 428px){
     .container-job{
         display: flex;
         margin-bottom: 120px;

@@ -579,13 +579,13 @@ color: #434455;
         margin-bottom: 72px;
     }
 }
-/* @media screen and (min-weidth: 768px;){
+/* @media screen and (min-weidth: 768px;){ */
 .container-job{
     display: flex;
     margin-bottom: 120px;
     justify-content: center;
     flex-direction: column;
-}  */
+} 
 .job{
     display: flex;
 }

@@ -136,9 +136,10 @@ h1 {
     margin-right: auto; */
    
 }
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 768px) {
     .container{ 
-    width: 428px;
+    /* width: 428px; */
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     }
@@ -401,7 +402,6 @@ color: #434455;
 }
 .strategy{
     display: flex;
-    /* justify-content: space-between; */
 }
 .strateg{
     margin: 120px 0 120px 0;   
@@ -420,10 +420,17 @@ color: #434455;
 
 /* Приоритеты */
 /* -------Для мобилок-------- */
- /* .container-job{
+ .container-job{
          display: none;
-    } */
-@media screen and (max-width: 768px) {
+    }
+@media screen and (max-width: 767px) {
+    .strateg{
+        margin: 96px 0;   
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+    }
     .strategy{
         display: flex;
         flex-direction: column;
@@ -471,14 +478,16 @@ color: #434455;
 }
 
 /* -------Для планшетов------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1157px) {
     .strategy{
         flex-direction: row;
         flex-wrap: wrap;       
 
     }
+}
     .strategy-h{
-        width: 356px;
+        /* width: 356px; */
+        width: 100%;
         flex-direction: row;
         flex-wrap: wrap;       
 
@@ -493,7 +502,8 @@ color: #434455;
         line-height: 1.2;
     }
     .our-strategy{
-        width: 351px;
+        /* width: 351px; */
+        width: 100%;
         margin-top: 8px;
         color: #434455;
         font-size: 16px;
@@ -502,8 +512,17 @@ color: #434455;
         font-weight: 500;
         font-size: 16px;
     }
+    .our-strategy:last-child{
+        margin-bottom: 0;
+    }
 }
-
+@media screen and (max-width: 1157px){
+    .strategy{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+            }
+    }
 
 /* -------Для Десктопов -------*/
 @media screen and (min-width: 1158px){
@@ -581,7 +600,7 @@ color: #434455;
 }
 /* @media screen and (min-weidth: 768px;){ */
 .container-job{
-    /* display: flex; */
+    display: flex;
     margin-bottom: 120px;
     justify-content: center;
     flex-direction: column;
@@ -642,7 +661,7 @@ img{
     }
 }
 /* Команда */
-/* -------Для Моб.-------
+/* -------Для Моб.------- */
 
 @media screen and (min-width: 428px){
     .container-produkt{
@@ -651,10 +670,7 @@ img{
     .produkt{
         margin-bottom: 72px;
     }
-    .container-team{
-        margin-bottom: 72px;
-    }
-} */
+}
 /* -------Для Планшета------- */
 
 /* -------Для Десктопа------- */
@@ -776,23 +792,7 @@ h2 {
         display: block;
     }
 } */
-/* -------Для Моб.------- */
 
-@media screen and (max-width: 768px){
-    .container-produkt{
-        margin: 96px 82px;
-    }
-    .produkt{
-        margin-bottom: 72px;
-        margin-right: 0;
-    }
-    .container-team{
-        margin-bottom: 72px;
-    }
-    .produkt:last-child{
-        margin-bottom: 0;
-    }
-}
 /* Наши компаньоны  */
 .gustomers{
     display: flex;
@@ -806,8 +806,7 @@ h2 {
 }
 .gustomers-list{
     display: flex;
-    align-items: flex-start;
-    /* flex-direction: row; */
+    flex-direction: row;
 }
 .gustomers-list-item{
     display: flex;
@@ -839,50 +838,13 @@ h2 {
     fill: #8E8F99;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (max-width: 768px){
-    .gustomers-item{
-        margin-top: 96px;
-        margin-bottom: 0;
-    }
-    .gustomers-list-item{
-        margin-bottom: 72px;
-        /* gap-right: 16px; */
-    }
-    .gustomers-list{
-       margin: 72px 16px 96px 16px;
-       flex-wrap: wrap; 
-    }
-    .gustomers-list-item:last-child{
-    margin-right: 0;
-}
-    .gustomers-list-item:nth-child(even){
-        margin-right: 0;
-    }
-}
 /* Подвал стр. */
 /* -------Моб.------- */
-@media screen and (max-width: 768px){
-    .footer{
-        display: flex;
-        flex-direction: column;
-    }
-    .container-alles{
-        flex-direction: column;
-        /* text-align: center; */
-        
-    }
-    .logos-footer{
-        flex-direction: column;
-    }
-} 
 
 /* ------Планшет------ */
 
 
 /* ------Десктоп----- */
-/* @media screen and (min-width: 1158px){ */
-    
-
 .footer{
     display: flex;
     flex-direction: row;
@@ -1024,11 +986,9 @@ h2 {
     top: 10px;
     color: #ffffff;
 }
-}
 /* Кнопки */
  .container-button {
     display: flex;
-    flex-direction: row;
     max-width: 1128px;
  } 
 .container-button{
@@ -1074,7 +1034,6 @@ h2 {
     letter-spacing: 0.04em;
     background-color: #404BBF;
     color: #ffffff;
-}
 }
 /* Наши работы */
 .job-p{

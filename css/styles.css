@@ -536,16 +536,26 @@ color: #434455;
         flex-wrap: wrap;
     }
     .our-strategy{
-        width: 356px;
+        
+        /* width: 356px; */
         height: 72px;
         margin-right: 24px;
     }
     .our-strategy:last-child(2n){
         margin-right: 0;
     }
-
+    /* .strategy-h{
+        width:calc((100%-2*24px)/2);
+    } */
 }
-
+@media screen and (max-width: 1158px){
+    .our-strategy{
+        
+        width: 356px;
+        height: 72px;
+        margin-right: 24px;
+    }
+}
 /* -------Для Десктопов -------*/
 @media screen and (min-width: 1158px){
 .strategy{

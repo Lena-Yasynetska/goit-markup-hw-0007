@@ -616,11 +616,11 @@ color: #434455;
 
 /* наши работы */
 
-@media screen and (max-width: 428px;) {
-    .job{
+@media screen and (max-width: 1157px) {
+    .container-job{
         display: none;
     }
-    .container-job{
+    /* .container-job{
         display: flex;
         margin: 96px 82px;
         justify-content: center;
@@ -629,15 +629,16 @@ color: #434455;
     .job-secion{
         display: flex;
         margin-bottom: 72px;
-    }
+    } */
 }
-/* @media screen and (min-weidth: 768px;){ */
+@media screen and (min-weidth: 1158px){
 .container-job{
     display: flex;
     margin-bottom: 120px;
     justify-content: center;
     flex-direction: column;
 } 
+}
 .job{
     display: flex;
 }
@@ -676,10 +677,10 @@ img{
     margin-right: 0;
 }
 
-@media screen and (min-width: 428px){
+/* @media screen and (min-width: 428px){
     .container-job{
         /* display: flex; */
-        margin-bottom: 120px;
+        /* margin-bottom: 120px;
         justify-content: center;
         flex-direction: column;
     } 
@@ -692,7 +693,7 @@ img{
     .container .container-job{
         display: none;
     }
-}
+}  */
 /* Команда */
 /* -------Для Моб.------- */
 

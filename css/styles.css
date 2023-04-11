@@ -529,7 +529,7 @@ color: #434455;
         margin-bottom: 0;
     }
 }
-@media screen and (max-width: 1157px){
+@media screen and (min-width: 767px){
     .strategy{
         display: flex;
         flex-direction: row;
@@ -551,6 +551,7 @@ color: #434455;
 .strategy{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 .h-strategy{
     margin: 0;

@@ -550,8 +550,8 @@ color: #434455;
 }
 @media screen and (max-width: 1158px){
     .our-strategy{
-        width: 100%;
-        /* width: 356px; */
+       
+        width: 356px;
         height: 72px;
         margin-right: 24px;
     }

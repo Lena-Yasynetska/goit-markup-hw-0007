@@ -836,10 +836,10 @@ h2 {
 }
 /* -------Для Планшета------- */
 @media screen and (min-width: 767px) {
-    .container-p{
+    .container-produkt{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 }
 /* -------Для Десктопа------- */
@@ -1113,7 +1113,7 @@ h2 {
 .container-produkt{
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
  .test{
     left: 0;

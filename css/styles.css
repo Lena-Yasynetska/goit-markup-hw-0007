@@ -616,7 +616,7 @@ color: #434455;
 
 /* наши работы */
 
-@media screen and (max-width: 1157px) {
+/* @media screen and (max-width: 1157px) {
     .container-job{
         display: none;
     }
@@ -629,16 +629,15 @@ color: #434455;
     .job-secion{
         display: flex;
         margin-bottom: 72px;
-    } */
-}
-@media screen and (min-weidth: 1158px){
+    } 
+} */
+/* @media screen and (min-weidth: 768px;){ */
 .container-job{
     display: flex;
     margin-bottom: 120px;
     justify-content: center;
     flex-direction: column;
 } 
-}
 .job{
     display: flex;
 }
@@ -694,6 +693,24 @@ img{
         display: none;
     }
 }  */
+
+@media screen and (max-width: 1157px) {
+    .container-job{
+        display: none;
+    }
+    /* .container-job{
+        display: flex;
+        margin: 96px 82px;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    .job-secion{
+        display: flex;
+        margin-bottom: 72px;
+    } */
+}
+
+
 /* Команда */
 /* -------Для Моб.------- */
 

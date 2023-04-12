@@ -1113,7 +1113,7 @@ h2 {
 .container-produkt{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
  .test{
     left: 0;

@@ -146,13 +146,15 @@ h1 {
 }
 @media screen and (min-width: 768px) {
     .container{ 
-    width: 736px;
+    width: 767px;
     margin-left: auto;
     margin-right: auto;
     }
+}
 @media screen and (min-width: 1158px) {    
-}.container{
-    width: 1158px; 
+
+    .container{
+    width: 1157px; 
     /* padding-left: 15px;
     padding-right: 15px;    */
  } 
@@ -527,32 +529,30 @@ color: #434455;
     }
     .our-strategy:last-child{
         margin-bottom: 0;
-       
+        
     }
 }
 @media screen and (min-width: 767px){
     .strategy{
-        display: flex;
+        
         flex-direction: row;
         flex-wrap: wrap;
     }
     .our-strategy{
         
-        width: 100%;
+        width:calc((100%-2*24px)/2);
         height: 72px;
         margin-right: 24px;
     }
     .our-strategy:last-child(2n){
         margin-right: 0;
     }
-    /* .strategy-h{
-        width:calc((100%-2*24px)/2);
-    } */
+    
 }
 @media screen and (max-width: 1158px){
     .our-strategy{
        
-        width: 356px;
+        /* width:calc((100%-2*24px)/2); */
         height: 72px;
         margin-right: 24px;
     }
@@ -844,7 +844,9 @@ h2 {
 }
 /* -------Для Десктопа------- */
 @media screen and (min-width: 1157px) {
-    
+     .container-produkt{
+        flex-wrap: wrap;
+     }
 }
 
 

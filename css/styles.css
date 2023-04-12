@@ -527,7 +527,7 @@ color: #434455;
     }
     .our-strategy:last-child{
         margin-bottom: 0;
-        width: 100%;
+       
     }
 }
 @media screen and (min-width: 767px){
@@ -837,6 +837,8 @@ h2 {
 /* -------Для Планшета------- */
 @media screen and (min-width: 767px) {
     .container-p{
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 }

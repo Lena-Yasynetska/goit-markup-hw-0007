@@ -900,13 +900,29 @@ h2 {
     fill: #8E8F99;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* Подвал стр. */
+
 /* -------Моб.------- */
 
-/* ------Планшет------ */
+    
 
+/* ------Планшет------ */
+@media screen and (max-width: 767px) {
+    .gustomers-list{
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 16px;
+    }
+    .gustomers-list-item{
+        margin: 0;
+        width: 190px;
+    }   
+    
+
+}
 
 /* ------Десктоп----- */
+/* Подвал стр. */
+
 .footer{
     display: flex;
     flex-direction: row;
@@ -1047,6 +1063,57 @@ h2 {
     right: 24px;
     top: 10px;
     color: #ffffff;
+}
+@media screen and (max-width: 767px){
+    .footer{
+        padding: 96px 15px;
+        
+    }
+    .alles{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .logo-f{
+        margin: 0;
+    }
+    .logo-footer{
+        text-align: center;
+    }
+    .logo-alles{
+        margin-top: 72px;
+        margin-bottom: 72px;
+        text-align: center;
+    }
+    .footer-social-list{
+        margin: 16px 0 0 0;
+    }
+    .footer-email{
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+    .logos-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .email{
+        align-items: center;
+        width: 398px;
+    }
+
+    .emails{
+        width: 398px;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+    .telegramm{
+        margin: 0;
+        
+        width: 165px;
+        height: 40px;
+    }
 }
 /* Кнопки */
  .container-button {

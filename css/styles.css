@@ -712,20 +712,6 @@ img{
 
 
 /* Команда */
-/* -------Для Моб.------- */
-
-@media screen and (min-width: 428px){
-    .container-produkt{
-        margin: 96px 82px;
-    }
-    .produkt{
-        margin-bottom: 72px;
-    }
-}
-/* -------Для Планшета------- */
-
-/* -------Для Десктопа------- */
-
 
 h2 {
     margin: 0;
@@ -837,12 +823,27 @@ h2 {
     border-radius: 50%;
     background-color: #4D5AE5;
 }
-/* @media screen and (max-width: 1158px;){
-    .job-secion{
-      
-        display: block;
+/* -------Для Моб.------- */
+
+@media screen and (min-width: 428px){
+    .container-produkt{
+        margin: 96px 82px;
     }
-} */
+    .produkt{
+        margin-bottom: 72px;
+    }
+}
+/* -------Для Планшета------- */
+@media screen and (min-width: 767px) {
+    .container-p{
+        flex-wrap: wrap;
+    }
+}
+/* -------Для Десктопа------- */
+@media screen and (min-width: 1157px) {
+    
+}
+
 
 /* Наши компаньоны  */
 .gustomers{
@@ -1109,6 +1110,7 @@ h2 {
 .container-produkt{
     display: flex;
     justify-content: center;
+    /* flex-wrap: wrap; */
 }
  .test{
     left: 0;
@@ -1122,6 +1124,10 @@ h2 {
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* @media screen and (min-width: 767px) {
+    
+} */
+
 /* modal */
 .backdrop{
     position: fixed;

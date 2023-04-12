@@ -468,6 +468,7 @@ color: #434455;
     .our-strategy{
         /* width: 396px;
         height: 48px; */
+        width: 100%;
         margin-top: 8px;
         margin-bottom: 72px;
         color: #434455;
@@ -517,7 +518,7 @@ color: #434455;
         line-height: 1.2;
     }
     .our-strategy{
-       
+        margin-right: 0;
         margin-top: 8px;
         color: #434455;
         font-size: 16px;
@@ -900,15 +901,11 @@ h2 {
     fill: #8E8F99;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* -------Моб.------- */
-
-    
-
-/* ------Планшет------ */
+/* ------Моб.------ */
 @media screen and (max-width: 767px) {
     .gustomers-list{
         flex-wrap: wrap;
+        margin-top: 72px;
         row-gap: 72px;
         column-gap: 16px;
     }
@@ -916,11 +913,38 @@ h2 {
         margin: 0;
         width: 190px;
     }   
-    
-
+    .gustomers-item{
+        margin-bottom: 0;
+        margin-top: 96px;
+    }
+    .our-team{
+        margin-bottom: 0;
+    }
 }
 
-/* ------Десктоп----- */
+/* ------Планшет----- */
+@media screen and (min-width: 768px){
+    .gustomers-item{
+        margin: 96px 108px;
+    }
+    .gustomers{
+        padding: 0;
+    }
+    .gustomers-list{
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+    .gustomers-list-item{
+        width: 168px;
+        height: 88px;
+    }
+}
+@media screen and (min-width: 1158px){
+    .gustomers-list{
+        flex-wrap: nowrap;
+}
+}
 /* Подвал стр. */
 
 .footer{
@@ -1099,7 +1123,7 @@ h2 {
         align-items: center;
     }
     .email{
-        align-items: center;
+       
         width: 398px;
     }
 
@@ -1113,6 +1137,37 @@ h2 {
         
         width: 165px;
         height: 40px;
+    }
+}
+@media screen and (max-width: 1157px){
+    .footer{
+        padding: 108px 96px;
+        
+    }
+    .alles{
+        flex-direction: row;
+    }
+    .logos-footer{
+        flex-direction: row;
+    }
+    .logo-f{
+        margin-right: 24px;
+    }
+    .footer-email{
+        text-align: start;
+        align-items: start;
+    }
+    .email {
+        text-align: start;
+    }
+    .logo-footer{
+        text-align: start;
+        align-items: start;
+    }
+    .footer-logos{
+        text-align: start;
+        align-items: start;
+
     }
 }
 /* Кнопки */

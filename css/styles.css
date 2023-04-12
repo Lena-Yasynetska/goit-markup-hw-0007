@@ -517,8 +517,7 @@ color: #434455;
         line-height: 1.2;
     }
     .our-strategy{
-        /* width: 351px; */
-        width: 100%;
+       
         margin-top: 8px;
         color: #434455;
         font-size: 16px;
@@ -534,13 +533,13 @@ color: #434455;
 }
 @media screen and (min-width: 767px){
     .strategy{
-        
+        width: 767px;
         flex-direction: row;
         flex-wrap: wrap;
     }
     .our-strategy{
-        
-        width:calc((100%-2*24px)/2);
+       
+        /* width:calc((100%-2*24px)/2); */
         height: 72px;
         margin-right: 24px;
     }
@@ -551,7 +550,7 @@ color: #434455;
 }
 @media screen and (max-width: 1158px){
     .our-strategy{
-       
+        width: 356px;
         /* width:calc((100%-2*24px)/2); */
         height: 72px;
         margin-right: 24px;
@@ -573,6 +572,7 @@ color: #434455;
     line-height: 1.2;
 }
 .our-strategy{
+    width: 264px;
     margin-top: 8px;
     color: #434455;
     font-size: 16px;
@@ -840,7 +840,12 @@ h2 {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        
     }
+    .team-our{
+        padding: 96px 108px;
+    }
+
 }
 /* -------Для Десктопа------- */
 @media screen and (min-width: 1157px) {

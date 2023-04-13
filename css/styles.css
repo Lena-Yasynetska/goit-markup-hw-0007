@@ -872,6 +872,9 @@ h2 {
      .container-produkt{
         flex-wrap: nowrap;
      }
+     .container-p{
+        margin: 0;
+     }
 }
 
 
@@ -922,7 +925,7 @@ h2 {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ------Моб.------ */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1157px) {
     .gustomers-list{
         flex-wrap: wrap;
         margin-top: 72px;
@@ -944,11 +947,12 @@ h2 {
 }
 
 /* ------Планшет----- */
-@media screen and (min-width: 768px){
+ @media screen and (min-width: 768px){
     .gustomers-item{
         margin: 96px 108px;
     }
-    .gustomers{
+}
+ /*  .gustomers{
         padding: 0;
     }
     .gustomers-list{
@@ -964,8 +968,10 @@ h2 {
 @media screen and (min-width: 1158px){
     .gustomers-list{
         flex-wrap: nowrap;
+        row-gap: 72px;
+        column-gap: 16px;
 }
-}
+} */
 /* Подвал стр. */
 
 .footer{

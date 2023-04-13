@@ -827,13 +827,6 @@ h2 {
     border-radius: 50%;
     background-color: #4D5AE5;
 }
-/* @media screen and (min-width: 767px){
-    .container-produkt {
-    width: 767px;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-} */
 /* -------Для Моб.------- */
 
 @media screen and (min-width: 428px){
@@ -859,7 +852,6 @@ h2 {
 @media screen and (max-width: 1157px){
     .produkt{
         margin-right: 0;
-        
     }
 }
 .container-produkt{

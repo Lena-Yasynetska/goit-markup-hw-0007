@@ -859,13 +859,14 @@ h2 {
 @media screen and (max-width: 1157px){
     .produkt{
         margin-right: 0;
-        column-gap: 24px;
+        
     }
 }
 .container-produkt{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    column-gap: 24px;
 }
 /* -------Для Десктопа------- */
 @media screen and (min-width: 1157px) {

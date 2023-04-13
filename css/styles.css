@@ -754,7 +754,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 0;
+   
 }
 .social-list-item{
     display: flex;
@@ -855,9 +855,11 @@ h2 {
     .team-our{
         padding: 96px 108px;
     }
+}
+@media screen and (max-width: 1157px){
     .produkt{
         margin-right: 0;
-        column-gap: 24px;   
+        column-gap: 24px;
     }
 }
 .container-produkt{
@@ -870,7 +872,6 @@ h2 {
      .container-produkt{
         flex-wrap: nowrap;
      }
-   
 }
 
 
@@ -1190,12 +1191,15 @@ h2 {
         flex-direction: row;
     }
 }
-/* @media screen and (min-width: 1158px) {
-    .alles-plan{
+@media screen and (min-width: 1158px) {
+    .alles{
        
-        flex-direction: column;
+        flex-direction: row;
     }
-} */
+    .footer-email{
+        margin-left: 80px;
+    }
+}
 /* Кнопки */
  .container-button {
     display: flex;

@@ -520,7 +520,6 @@ color: #434455;
         font-size: 20px;
         line-height: 1.2;
     }
-   
     .our-strategy{
         /* max-width: 356px; */
         margin-right: 0;
@@ -532,7 +531,6 @@ color: #434455;
     }
     .our-strategy:last-child{
         margin-bottom: 0;
-        
     }
 }
 @media screen and (min-width: 767px){
@@ -542,8 +540,6 @@ color: #434455;
         flex-wrap: wrap;
     }
     .our-strategy{
-       
-        /* width:calc((100%-2*24px)/2); */
         height: 72px;
         margin-right: 24px;
     }

@@ -1080,12 +1080,12 @@ h2 {
 .logos-footer{
     display: flex;
     flex-direction: row;
-    /* width: 100%; */
+    width: 100%;
 }
 .email{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
     max-width: 398px;
     height: 40px;
     /* border: 1px solid #FFFFFF; */
@@ -1169,10 +1169,10 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
-    /* .email{
+    .email{
        
-        width: 398px;
-    } */
+        width: 100%;
+    }
 
     .emails{
         width: 398px;

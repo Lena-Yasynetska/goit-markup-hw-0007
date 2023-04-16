@@ -26,7 +26,7 @@ h1 {
     text-align: center;
  }
 .section{
-    padding: 96px 0;
+    padding: 96px 16px;
 }
 /* Шапка стр. */
  .header{
@@ -132,6 +132,12 @@ h1 {
 .adress-menu:hover{
     color: #404BBF;
 } 
+@media screen and (max-width:767px) {
+.header{
+    padding: 24px 0;
+       
+    }
+}
 @media screen and (min-width: 768px) {
     .container{ 
     /* width: 428px; */
@@ -409,7 +415,7 @@ color: #434455;
     display: flex;
 }
 .strateg{
-    margin: 120px 0 120px 0;   
+    margin: 0;   
 }
 .service:hover{
     background-color: #404BBF;
@@ -430,7 +436,7 @@ color: #434455;
     }
 @media screen and (max-width: 767px) {
     .strateg{
-        margin: 96px 0;   
+        margin: 0;   
     }
     .container{
         margin: 0;
@@ -677,9 +683,9 @@ img{
     height: auto;
     display: block;
 }
-/* .job-secion{
-    display: flex;
-} */
+.strategy-h {
+    column-gap: 24px;
+}
 .job-secion:last-child{
     margin-right: 0;
 }
@@ -834,7 +840,11 @@ h2 {
     background-color: #4D5AE5;
 }
 /* -------Для Моб.------- */
-
+@media screen and (max-width: 767px){
+    .produkt{
+        margin-right: 0;
+    }
+}
 
 /* -------Для Планшета------- */
 @media screen and (min-width: 767px) {
@@ -846,6 +856,9 @@ h2 {
     }
     .team-our{
         padding: 96px 108px;
+    }
+    .produkt{
+        margin-right: 0;
     }
 }
 /* @media screen and (max-width: 767px){
@@ -885,7 +898,7 @@ h2 {
 }
 .gustomers-item{
     display: flex;
-    margin: 120px 0;
+    /* margin: 120px 0; */
     justify-content: center;
     flex-direction: row;
 }
@@ -949,18 +962,17 @@ h2 {
 /* ------Планшет----- */
  @media screen and (min-width: 768px){
     .gustomers-item{
-        margin: 0 108px;
+        padding: 96px 108px;
     }
 }
- /*  .gustomers{
+    .gustomers{
         padding: 0;
+        /* justify-content: space-between; */
     }
     .gustomers-list{
-        flex-wrap: wrap;
-        row-gap: 72px;
-        column-gap: 24px;
+        justify-content: space-between;
     }
-    .gustomers-list-item{
+    /*.gustomers-list-item{
         width: 168px;
         height: 88px;
     }
@@ -1070,7 +1082,7 @@ h2 {
 .logos-footer{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
 }
 .email{
     display: flex;
@@ -1127,7 +1139,7 @@ h2 {
 }
 @media screen and (max-width: 767px){
     .footer{
-        padding: 96px 15px;
+        padding: 97.5px 15px 96px;
         
     }
     .alles{
@@ -1178,7 +1190,7 @@ h2 {
 }
 @media screen and (min-width: 767px){
     .footer{
-        padding: 108px 96px;
+        padding: 96px 108px;
         
     }
     .alles{

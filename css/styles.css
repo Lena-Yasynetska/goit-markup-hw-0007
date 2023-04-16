@@ -364,7 +364,7 @@ color: #434455;
         display: none;
 
     }
-    .mobal-menu-opens{
+    .js-open-menu{
         display: none;
     }
 }

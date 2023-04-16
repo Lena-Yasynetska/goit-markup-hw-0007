@@ -238,7 +238,7 @@ h1 {
     visibility: visible;
     pointer-events: auto;
 }
-.modal-close-btn{
+.js-close-menu{
     position: absolute;
     top: 24px;
     right: 24px;

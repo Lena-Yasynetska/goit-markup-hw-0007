@@ -191,7 +191,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 26px;
+    /* padding-top: 26px; */
 }
 .mobal-menu-opens{
     width: 30px;
@@ -244,6 +244,7 @@ h1 {
 }
 .js-close-menu{
     position: absolute;
+    
     top: 24px;
     right: 24px;
     width: 24px;

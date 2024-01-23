@@ -35,8 +35,8 @@ h1 {
     margin-left: auto;
     margin-right: auto; 
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px; 
+    /* padding-left: 15px; */
+    /* padding-right: 15px;  */
     /* padding-top: 24px;   */
  } 
 .header-container{
@@ -218,7 +218,7 @@ h1 {
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 80px 35px 40px 40px;
-    font-size: 36px;
+    /* font-size: 36px; */
     line-height: 1.1;
     justify-content: space-between;
     
@@ -1305,7 +1305,7 @@ h2 {
 }
 /* Наши работы */
 .job-p{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px;

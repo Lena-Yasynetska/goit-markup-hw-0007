@@ -254,8 +254,12 @@ h1 {
 .modal-close-btn:hover,
 .modal-close-btn:focus{
     background-color: #404BBF;
+
     fill: #FFFFFF;
 }
+/* .mobal-menu{
+    position: absolute;
+} */
 /* .mobilites{
     display: flex;
     flex-direction: column;

@@ -679,6 +679,7 @@ color: #434455;
     display: flex;
 }
 .our-job {
+
     margin-bottom: 70px;
     
     font-weight: 700;
@@ -1323,12 +1324,15 @@ h2 {
     position: relative;
     overflow: hidden;
    } 
-/* .container-produkt{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
- .test{
+   /* porfolio-планшт */
+@media screen and (max-width: 488px){
+    .job-o{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+}
+.test{
     left: 0;
     top: 0;
     width: 100%;

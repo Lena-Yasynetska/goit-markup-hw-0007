@@ -1311,13 +1311,13 @@ h2 {
     overflow: hidden;
    } 
    /* porfolio-планшт */
-@media screen and (max-width: 488px){
+/* @media screen and (max-width: 488px){
     .job-o{
         display: flex;
         justify-content: center;
         flex-wrap: wrap; 
     }
-}
+} */
 .test{
     left: 0;
     top: 0;

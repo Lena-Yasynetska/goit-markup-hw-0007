@@ -254,23 +254,9 @@ h1 {
 .modal-close-btn:hover,
 .modal-close-btn:focus{
     background-color: #404BBF;
-
     fill: #FFFFFF;
 }
-/* .mobal-menu{
-    position: absolute;
-} */
-/* .mobilites{
-    display: flex;
-    flex-direction: column;
-   
-    padding: 80px 35px 40px 40px; */
-    /* font-style: normal;
-font-weight: 700; */
-/* font-size: 36px;
-line-height: 1.1;
-color: #2E2F42;
-} */
+
 .menu-teil{
     margin-bottom: 40px;
 }
@@ -1588,6 +1574,26 @@ h2 {
     .container-jobb{
         display: none;
     }
+    /* .js-close-menu{
+        position: absolute;
+        
+        top: 24px;
+        right: 24px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+        border: 1px solid #E7E9FC;
+        /* border: 1px solid rgba(0, 0, 0, 0.1); */
+        /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        font-size:none;   
+    }
+    .modal-close-btn:hover,
+    .modal-close-btn:focus{
+        background-color: #404BBF;
+        fill: #FFFFFF;
+    }  */
 }
 
 /* test */

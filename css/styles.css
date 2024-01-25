@@ -1293,6 +1293,7 @@ h2 {
 /* Наши работы */
 .job-p{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px;

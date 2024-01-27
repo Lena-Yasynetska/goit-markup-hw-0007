@@ -417,16 +417,19 @@ color: #434455;
     background-color: rgba(46, 47, 66, 0.4);
 }
 @media screen and (max-width: 767px) {
-    .hero-section{
+.hero-section{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
     }
-    
+.job-p{
+    display: flex;
+    flex-direction: column;
+    }
 }
 @media screen and (min-widht: 768px) {
-    .hero-section{
+.hero-section{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.05;
@@ -1293,7 +1296,7 @@ h2 {
 /* Наши работы */
 .job-p{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap; 
     column-gap: 24px;
     row-gap: 48px;
@@ -1574,6 +1577,9 @@ h2 {
 @media screen and (max-width: 428px){
     .container-jobb{
         display: none;
+    }
+    .job-p{
+        flex-direction: column;
     }
     /* .js-close-menu{
         position: absolute;
